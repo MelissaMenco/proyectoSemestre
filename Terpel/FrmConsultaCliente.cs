@@ -30,5 +30,9 @@ namespace Terpel
             DgvClientes.DataSource = ClienteService.ConsultarTodos();
         }
 
+        private void FrmConsultaCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
